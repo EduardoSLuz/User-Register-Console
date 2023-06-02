@@ -1,0 +1,84 @@
+.form-dark input,
+.form-dark select {
+    border-color: black;
+}
+
+.navbar-default {
+    border-radius: .45em;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .075);
+    ;
+}
+
+.flx-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-search {
+    box-shadow: none;
+    border: none;
+}
+
+.btn-qd {
+    border-radius: 0;
+}
+
+.card-support {
+    width: 500px;
+}
+
+.row.space-plus > * {
+    margin-bottom: .7em;
+}
+
+/* SELECT2 CUSTOM */
+.mode-dark + .select2-container--default .select2-selection--multiple {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 4px;
+    cursor: text
+}
+
+/* TABLE CUSTOM */
+.table-config>tbody tr td:last-child div {
+    display: flex;
+    align-items: center;
+    gap: .65em;
+    font-size: 1.5em;
+    color: black;
+}
+
+.table-config.jf-end>tbody tr td:last-child div {
+    justify-content: end;
+}
+
+/* CHAT SUPPORT */
+
+/* .chat-contact-list {
+    height: 100px;
+    white-space: nowrap;
+    overflow: scroll;
+} */
+
+.chat-contact-list li {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.chat-contact-list li:hover {
+    cursor: pointer;
+}
+
+.chat-contact-list li p {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+
+.chat-contact-list li .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
